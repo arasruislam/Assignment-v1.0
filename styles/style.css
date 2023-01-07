@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+/* Common Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+
+.primary-pera {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.primary-btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 15px 20px;
+  outline: none;
+  color: #005fac;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.primary-btn:hover {
+  color: #ffffff;
+  background-color: #005fac;
+  border: 1px solid #005fac;
+}
+.primary-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  color: #151414;
+}
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+}
+
+/* End Of Common Style */
+
+/* Header Start */
+
+.header img {
+  width: 100%;
+  position: relative;
+}
+.header-content {
+  width: 40vw;
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  margin-top: -180px;
+  text-align: right;
+}
+.header-pera {
+    color: #FFFFFF;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #FFFFFF;
+}
+/* End Of Header */
+
+/* Main Start */
+.main {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+/* Instruction Start */
+.instruction {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.i-img-side > img {
+    width: 400px;
+}
+.i-content-side {
+    margin-left: 50px;
+}
+.instruction .i-pera {
+    color: #444343;
+}
+.i-content-side ul li {
+    line-height: 26px;
+    color: #444343;
+}
+.fa-check {
+    color: #16D887;
+    padding-right: 10px;
+}
